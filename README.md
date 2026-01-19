@@ -1,4 +1,4 @@
-# Sec-Context - AI Code Security Anti-Patterns
+# Sec-Context - AI Code Security Anti-Patterns for LLMs
 
 **A comprehensive security reference distilled from 150+ sources to help LLMs generate safer code**
 
