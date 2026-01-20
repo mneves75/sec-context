@@ -15,6 +15,26 @@ related:
   - "[[Pseudocode-Examples]]"
 ---
 
+# AI-Generated Code Security Guidelines
+
+## Essentials
+
+- **Primary Rule**: AI-generated code is 2.74x more likely to contain vulnerabilities; validate everything
+- **Default Choice**: Parameterized queries, environment variables, context-specific encoding
+- **Key Pattern**: BAD example → understand why → GOOD example → implement
+- **Critical Warning**: 5-21% of AI-suggested packages don't exist (slopsquatting)
+
+## When to use
+
+- Reviewing or accepting ANY AI-generated code
+- Writing security-sensitive code with AI assistance
+- Implementing auth, input handling, database queries, or cryptography with AI
+
+> Read time: ~60 min | Priority: 1 (highest) | Last reviewed: 2026-01-20
+> Source: [Arcanum-Sec/sec-context](https://github.com/Arcanum-Sec/sec-context)
+
+---
+
 # AI Code Security Anti-Patterns
 ## Breadth Version - Comprehensive Coverage
 
@@ -7312,4 +7332,12 @@ This document provides comprehensive security anti-pattern guidance across 10 cr
 
 *Generated for use as an LLM system prompt, RAG context, or security reference document.*
 *Compatible with any language - implement pseudocode patterns in your target framework.*
+
+---
+
+## Companion References
+
+- **SECURITY-GUIDELINES.md** - Organizational security posture, Zero Trust, SDLC
+- **OWASP-GUIDELINES.md** - Control requirements, OWASP Top 10 mapping
+- **DEV-GUIDELINES.md** - Code quality, type safety (defense in depth)
 
